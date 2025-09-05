@@ -1,4 +1,8 @@
 ############################### LESSON 1 ####################################
+
+# Learning material👇
+browseURL('https://a-little-book-of-r-for-bioinformatics.readthedocs.io/en/latest/src/chapter4.html')
+
 # We would make use of packages within the bioconductor open source software
 browseURL('https://www.bioconductor.org/packages/release/BiocViews.html#___Software')
 
@@ -42,7 +46,7 @@ GC(seq = dengueseq) * 100 # how would you have computed this manually? in R
  #- DNA words
  count(seq = dengueseq ,wordsize = 1) # single nucleotides
  count(seq = dengueseq ,wordsize = 2) # two nucleotides
- # Can you find which two nucleotide has the highest frequency?
+ # Can you find which two nucleotide has the highest frequency?🙃
  # Write your sequence into a fasta output.
  
  #- Sliding window analysis of GC content.
@@ -61,7 +65,7 @@ gc_countstore * 100 # express as percentage
 # Plot GC content.
 plot(x = setseq,y = gc_countstore,type = 'b',xlab = 'Nuceotide Start position',ylab = 'GC content')
 
-# Can you do this in ggplot2?
+# Can you do this in ggplot2?🙃
 
 
 ## Retrieving Genome sequence from R using the seqinr function.
